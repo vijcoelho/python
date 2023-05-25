@@ -1,0 +1,27 @@
+1)  IP: 197.216.114.64/28
+
+28 bits pra rede 
+32 - 28 = 4 Bits para Host
+A sub-redes 
+
+2 Elevado a 5 = 32
+
+11111111.11111111.11111111.11110000
+
+16+32+64+128 = 240
+
+255.255.255.240
+
+possíveis faixa de IPs para essa sub-rede.
+
+197.216.114.64 a 197.216.114.96
+
+
+3) a) Endereço IP 74.125.137.147 	
+Endereço de broadcast: 74.125.137.255
+
+b) Endereço IP: 200.144.183.244
+Endereço de broadcast: 200.144.183.255
+
+c) Endereço IP: 65.55.57.27
+Endereço de broadcast: 65.55.57.255
