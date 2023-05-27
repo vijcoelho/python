@@ -1,10 +1,23 @@
-texto = """
-A inserção de comentários no código do programa é uma prática normal.
-Em função disso, toda linguagem de programação tem alguma maneira de permitir que comentários sejam inseridos nos programas.
-O objetivo é adicionar descrições em partes do código, seja para documentá-lo ou para adicionar uma descrição do algoritmo implementado (BANIN, p. 45, 2018)."
-"""
-contador = 0
-for i, c in enumerate(texto):
-    if c == 'a' or c == 'e':
-        contador = contador + 1
-print(f"Vogal A e E sao encontradas {contador} vezes juntas")
+def calcular_valor(valor_prod, qtde, moeda="real", desconto=None, acrescimo=None):
+    v_bruto = valor_prod * qtde
+    
+    if desconto:
+        v_liquido = v_bruto - (v_bruto * (desconto / 100))
+    elif acrescimo:
+        v_liquido = v_bruto + (v_bruto * (acrescimo / 100))
+    else:
+        v_liquido = v_bruto
+    
+    if moeda == 'real':
+        return v_liquido
+    elif moeda == 'dolar':
+        return v_liquido * 5
+    elif moeda == 'euro':
+        return v_liquido * 5.7
+    else:
+        print("Moeda não cadastrada!")
+        return 0
+
+    
+valor_a_pagar = calcular_valor(valor_prod=32, qtde=5, desconto=5)
+print(f"O valor final da conta é {valor_a_pagar}")
