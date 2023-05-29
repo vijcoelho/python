@@ -27,11 +27,3 @@ print("\n")
 c1.borrowing()
 print("\n")
 c2.borrowing()
-
-
-
-
-
-
-
-
