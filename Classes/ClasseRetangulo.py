@@ -32,8 +32,14 @@ class retangulo:
         
         print(f'\nA quantidade de pisos necessarios sao de {(self.base * self.altura) * self.altura} .')
         
-r = retangulo(10,3)
+    def ehQuadrado(self):
+        
+        if self.base == self.altura: print('\nIsso é um Quadrado')
+        else: print('')
+        
+r = retangulo(10,10)
 r.trocar()
 r.area()
 r.perimetro()
 r.pisos()
+r.ehQuadrado()
