@@ -18,20 +18,10 @@ class Bola:
     def mostraCor(self):
         print(f"\nA cor atual é {self.cor}")
 
-
-def main():
-    bola01 = Bola("azul", 5, "metal")
-
-    while True:
-        bola01.mostraCor()
-        bola01.trocaCor()
-
-        continuar = input("Continuar? [s/n]")
-        continuar = continuar[0].lower()
-        if continuar == "n":
-            break
-
-    bola01.mostraCor()
+bola01 = Bola("azul", 5, "metal")
 
 
-main()
+bola01.mostraCor()
+bola01.trocaCor()
+bola01.mostraCor()
+
