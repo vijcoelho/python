@@ -55,15 +55,15 @@ class BichinhoVirtual:
         
     def Saude(self):
         if self.fome > 25:
-            self.saude = 10
+            self.saude = 100
             print(f"""\nA saúde do seu bichinho PERFEITO 🙌😊| Saúde : {self.saude}
                   E seu humor é de EXTREMA FELICIDADE""")
         elif self.fome > 15:
-            self.saude = 40
+            self.saude = 80
             print(f"""\nA saúde do seu bichinho está muitooo bemmm 😁| Saúde : {self.saude}
                   E seu humor é de felicidade""")            
         elif self.fome == 10:
-            self.saude = 80
+            self.saude = 40
             print(f"""\nA saúde do seu bichinho está bem melhor 😉| Saúde : {self.saude}
                   E seu humor cada vez mais feliz""")
         else: 
