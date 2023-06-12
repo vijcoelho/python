@@ -31,7 +31,7 @@ class Pessoa:
     def resultado(self):
         print(f'\nO resultado de tudo é {self.idade} anos, {self.altura:,.2f} altura, {self.peso:,.2f} peso.')
         
-Vitor = Pessoa('Vitor', 44, 89.6, 2.03 )
+Vitor = Pessoa('Vitor', 19, 58, 1.80 )
 while (True):
     Vitor.envelhecer()
     Vitor.engordar()
