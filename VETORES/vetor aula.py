@@ -8,4 +8,4 @@ while j<len(vet):
     if (vet[j]<menor):
         menor=vet[j]
     j=j+1
-print ('menor elemento' + str(menor))
+print ('menor elemento ' + str(menor))
