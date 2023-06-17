@@ -1,2 +1,2 @@
-vetor = [1,1,1,2,3,4]
-print(vetor.count(1))
+vetor = [1,2,3,4]
+print(vetor[0])
