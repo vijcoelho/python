@@ -17,4 +17,3 @@ while(cont < 5):
             menor3 = menor2
             menor2 = menor
             menor = num;
-            kjdgashjdgasjhdgashjdgasjhdgajhdgasDIKSADJKADHAKJSDHKAS
