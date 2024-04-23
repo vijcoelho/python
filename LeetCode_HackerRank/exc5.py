@@ -6,5 +6,14 @@ def containsDuplicate(nums):
     
     return False
 
-nums = [1,2,4,5]
-print(containsDuplicate(nums))
+def constainsDuplicateNeetCode(nums2):
+    hashset = set()
+
+    for i in nums2:
+        if i in hashset:
+            return True
+        hashset.add(i)
+    return False
+
+nums2 = [1,2,4,5,2,2,2,3]
+print(constainsDuplicateNeetCode(nums2))
